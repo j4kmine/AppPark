@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Utama</class>
+ <widget class="QMainWindow" name="Utama">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SiPUS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../glypticon.qrc">
+    <normaloff>:/glypticon/glyphicons_086_display.png</normaloff>:/glypticon/glyphicons_086_display.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_4"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1040</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionKonfigurasi_DB"/>
+    <addaction name="actionKeluar"/>
+   </widget>
+   <widget class="QMenu" name="menuMaster">
+    <property name="title">
+     <string>Master </string>
+    </property>
+    <addaction name="actionPengguna"/>
+    <addaction name="actionJenis_Kendaraan"/>
+    <addaction name="actionWaktu_Kerja"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuMaster"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionKeluar">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_063_power.png</normaloff>:/glypticon/glyphicons_063_power.png</iconset>
+   </property>
+   <property name="text">
+    <string>Keluar</string>
+   </property>
+   <property name="statusTip">
+    <string>Keluar Aplikasi</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionTentang_Aplikasi">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_003_user.png</normaloff>:/glypticon/glyphicons_003_user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Tentang Aplikasi</string>
+   </property>
+  </action>
+  <action name="openBarcode">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_259_barcode.png</normaloff>:/glypticon/glyphicons_259_barcode.png</iconset>
+   </property>
+   <property name="text">
+    <string>Barcode</string>
+   </property>
+   <property name="toolTip">
+    <string>Melayani Peminjaman dengan Barcode (Ctrl+B)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionKonfigurasi_DB">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_137_cogwheels.png</normaloff>:/glypticon/glyphicons_137_cogwheels.png</iconset>
+   </property>
+   <property name="text">
+    <string>Konfigurasi DB</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionPengguna">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_003_user.png</normaloff>:/glypticon/glyphicons_003_user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pengguna</string>
+   </property>
+  </action>
+  <action name="actionJenis_Kendaraan">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_005_car.png</normaloff>:/glypticon/glyphicons_005_car.png</iconset>
+   </property>
+   <property name="text">
+    <string>Jenis Kendaraan</string>
+   </property>
+  </action>
+  <action name="actionWaktu_Kerja">
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_054_clock.png</normaloff>:/glypticon/glyphicons_054_clock.png</iconset>
+   </property>
+   <property name="text">
+    <string>Waktu Kerja</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../glypticon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

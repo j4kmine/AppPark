@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>waktu_kerja</class>
+ <widget class="QWidget" name="waktu_kerja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tblWaktu_kerja">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>671</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="statusTip">
+    <string>Klik Kolom Untuk Mengurutkan</string>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cariwaktu_kerja">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>12</y>
+     <width>491</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Masukkan kata kunci berdasarkan Nomor Induk / Nama anggota&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Cari Waktu kerja</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>10</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tambah</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_054_clock.png</normaloff>:/glypticon/glyphicons_054_clock.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCari">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>10</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cari !</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../../glypticon.qrc">
+     <normaloff>:/glypticon/glyphicons_027_search.png</normaloff>:/glypticon/glyphicons_027_search.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../glypticon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
